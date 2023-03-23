@@ -1,7 +1,7 @@
 body {
 MIN-HEIGHT: 100vh;
 width: 100%;
-background: #009579;
+background: #08645c;
 }
 .container {
 position: absolute;
@@ -51,7 +51,7 @@ box-shadow: 0 2px 0 rgba(0,0,0,0.2) ;
 /* decorating button */
 .form input.button {
     color: #fff;
-    background: #009579;
+    background: #08645c;
     font-size: 1.2rem;
     font-weight:500;
     letter-spacing: 1px;
@@ -60,5 +60,5 @@ box-shadow: 0 2px 0 rgba(0,0,0,0.2) ;
     transition: 0.4s;
 }
 .form input.button:hover {
-    background: #006653;
+    background: #009579;
 }
