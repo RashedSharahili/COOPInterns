@@ -62,3 +62,17 @@ box-shadow: 0 2px 0 rgba(0,0,0,0.2) ;
 .form input.button:hover {
     background: #009579;
 }
+.signup{
+    font-size: 17px;
+    text-align: center;
+}
+
+.signup label{
+    color: #009579;
+    cursor: pointer;
+
+}
+
+.signup label:hover{
+    text-decoration: underline;
+}
