@@ -1,6 +1,14 @@
-body {
-MIN-HEIGHT: 100vh;
-width: 100%;
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  min-height: 100vh;
+  width: 100%;
 background: #08645c;
 }
 .container {
@@ -12,13 +20,11 @@ max-width: 430px;
 width: 100%;
 background: #fff;
 border-radius: 7px;
-box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 }
-
-.container .form {
-padding: 3rem;
+.container .form{
+    padding: 2rem;
 }
-
 .form header {
 font-size: 2rem;
 font-weight: 500;
@@ -28,9 +34,9 @@ margin-bottom: 1.5rem;
 .form input {
     height: 60px;
     width: 100%;
-    padding: 0 10px;
+    padding: 0 5px;
     font-size: 15px;
-    margin-bottom: 1.3rem;
+    margin-bottom: 1.9rem;
     border: 1px solid #ddd;
     border-radius: 6px;
     outline: none;
@@ -57,7 +63,7 @@ box-shadow: 0 2px 0 rgba(0,0,0,0.2) ;
     letter-spacing: 1px;
     margin-top: 1.7rem;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.4;
 }
 .form input.button:hover {
     background: #009579;
